@@ -60,7 +60,7 @@ body{
 .botao:last-child { 
     border-radius: 0 40px 0 0;
 }
-.ativo {
+.botao.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
@@ -83,6 +83,7 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
+
 .contador {
     font-size: 20px;
     text-align: center;
