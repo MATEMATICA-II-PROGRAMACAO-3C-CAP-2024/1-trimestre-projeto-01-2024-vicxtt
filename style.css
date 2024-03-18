@@ -83,8 +83,18 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
-
 .contador {
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito {
+    padding: 0 16x;
     text-align: center;
+    min-width: 100px;
+}
+.contador-digito-numero {
+    color: var(--verde);
+    font-size: 80px;
+    margin: 0;
 }
