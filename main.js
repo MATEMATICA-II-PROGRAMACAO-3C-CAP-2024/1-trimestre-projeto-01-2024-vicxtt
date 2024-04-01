@@ -23,12 +23,14 @@ function atualizaCronometro() {
 atualizaCronometro();
 setInterval(atualizaCronometro,1000);
 
+comecaCronometro();
+
 function comecaCronometro() {
     atualizaCronometro();
     setInterval(atualizaCronometro(), 1000);
 }
 
-//comecaCronometro();
+
 
 for (let i = 0; i < botoes.length; i++) {
     botoes[i].onclick = function () {
