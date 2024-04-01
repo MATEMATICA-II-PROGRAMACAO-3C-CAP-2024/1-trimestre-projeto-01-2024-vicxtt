@@ -1,0 +1,119 @@
+diff --git a/index.html b/index.html
+--- index.html
++++ index.html
+@@ -3,26 +3,29 @@
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Meus objetivos do ano</title>
+     <link rel="stylesheet" href="style.css">
+-    <title>Meus Objetivos do ano</title>
+ </head>
+ 
+ <body>
+     <section class="conteudo-principal">
+-        <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
++        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
+         <div class="conteudo">
+             <div class="botoes">
+-                <button class="botao ativo">Cursos Alura</button>
+-                <button class="botao">Criar projetos em JavaScript</button>
+-                <button class="botao">Criar um portfólio</button>
+-                <button class="botao">Atualizar meu currículo</button>
++                <button class="botao ativo">Estudar para o mestrado</button>
++                <button class="botao">Entrega do TCC do curso</button>
++                <button class="botao">Atividades da escola</button>
++                <button class="botao">Atualizar meu curriculo lattes</button>
+             </div>
+             <div class="abas-textos">
+                 <div class="aba-conteudo ativo">
+-                    <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
++                    <h3 class="aba-conteudo-titulo-principal">Leituras para as aulas do mestrado</h3>
+                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
++<<<<<<< HEAD
++                    <div class="contador"></div>
++=======
+                     <div class="contador">
+                             <div class="contador-digito">
+                             <p class="contador-digito-numero" id="7"></p>
+                             <p class="contador-digito-texto">"dias0"</p>
+@@ -40,12 +43,16 @@
+                             <p class="contador-digito-texto">seg</p>
+                             </div>
+                             </div>
+                     </div>
++>>>>>>> af7c1fcc74940d5743bbf1dec52d69f10ed4e3ed
+                 </div>
+                 <div class="aba-conteudo">
+-                    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
++                    <h3 class="aba-conteudo-titulo-principal">Planejamento da documentação do TCC</h3>
+                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
++<<<<<<< HEAD
++                    <div class="contador"></div>
++=======
+                     <div class="contador">
+                         <div class="contador-digito">
+                             <p class="contador-digito-numero" id="dias2"></p>
+                             <p class="contador-digito-texto">dias</p>
+@@ -62,12 +69,16 @@
+                             <p class="contador-digito-numero" id="seg2"></p>
+                             <p class="contador-digito-texto">seg</p>
+                             </div>
+                     </div>
++>>>>>>> af7c1fcc74940d5743bbf1dec52d69f10ed4e3ed
+                 </div>
+                 <div class="aba-conteudo">
+-                    <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
++                    <h3 class="aba-conteudo-titulo-principal">Elaboração de planos de aulas e atividades avaliativas</h3>
+                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
++<<<<<<< HEAD
++                    <div class="contador"></div>
++=======
+                     <div class="contador">
+                         <div class="contador-digito">
+                             <p class="contador-digito-numero" id="dias3"></p>
+                             <p class="contador-digito-texto">dias</p>
+@@ -84,12 +95,16 @@
+                             <p class="contador-digito-numero" id="seg3"></p>
+                             <p class="contador-digito-texto">seg</p>
+                             </div>
+                     </div>
++>>>>>>> af7c1fcc74940d5743bbf1dec52d69f10ed4e3ed
+                 </div>
+                 <div class="aba-conteudo">
+-                    <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
++                    <h3 class="aba-conteudo-titulo-principal">Organização de certificados e documentações</h3>
+                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
++<<<<<<< HEAD
++                    <div class="contador"></div>
++=======
+                     <div class="contador">
+                         <div class="contador-digito">
+                             <p class="contador-digito-numero" id="dias4"></p>
+                             <p class="contador-digito-texto">dias</p>
+@@ -106,11 +121,14 @@
+                             <p class="contador-digito-numero" id="seg4"></p>
+                             <p class="contador-digito-texto">seg</p>
+                             </div>
+                     </div>                  
++>>>>>>> af7c1fcc74940d5743bbf1dec52d69f10ed4e3ed
+                 </div>
+             </div>
+         </div>
++<<<<<<< HEAD
++=======
+              <div class="contador-digito">
+                      <p class="contador-digito-numero"></p>
+                      <p class="contador-digito-texto">dias0></p>
+              </div>
+@@ -126,8 +144,9 @@
+                      <p class="contador-digito-numero"></p>
+                      <p class="contador-digito-texto">seg0</p>
+              </div>
+         </div>
++>>>>>>> af7c1fcc74940d5743bbf1dec52d69f10ed4e3ed
+     </section>
+ 
+ </body>
+ <script src="main.js"></script>
