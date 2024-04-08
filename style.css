@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/ css2?family=Chakra+Petch:wght@400;700&display=swap');
 
+.botoes {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+}  
+
 :root{
     --cor-de-fundo:#250234;
     --verde:#5ce289;
@@ -9,11 +19,12 @@
     --texto-fundo:rgba(38, 226, 198, 0.3);
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
+
 .conteudo-principal {
     display: flex;
     flex-direction: column;
@@ -23,16 +34,19 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+
 .titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
+
 .titulo-principal span {
     color: var(--verde);
 }
+
 .botao {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -46,55 +60,64 @@ body{
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
-.botoes {
-    display: block;
-}
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
     }
-}
-.botao:first-child {
-     border-radius: 40px 0 0 0;
-}
-.botao:last-child { 
-    border-radius: 0 40px 0 0;
-}
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
+
+
 .botao.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
-.abas-textos{
-    background-color: var(--texto-fundo); padding: 40px;
+
+.abas-texto {
+    background-color: var(--texto-fundo);
+    padding: 40px;
     border-radius: 0 0 40px 40px;
 }
+
 .aba-conteudo.ativo {
     display: block;
 }
+
 .aba-conteudo {
     display: none;
 }
+
 .aba-conteudo-titulo-principal {
     font-size: 28px;
     text-align: center;
 }
+
 .aba-conteudo-titulo-secundario {
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
 }
-.contador {
-    display: flex;
+
+.contador{
+    display:flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.contador-digito {
-    padding: 0 16x;
+.contador-digito{
+    padding: 0 16px;
     text-align: center;
     min-width: 100px;
-}
-.contador-digito-numero {
-    color: var(--verde);
-    font-size: 80px;
-    margin: 0;
-}
+    }
+    
+.contador-digito-numero{ 
+        font-size: 80px;
+        margin: 0;
+    }
+
+.contador-digito-texto{
+        color: var(--verde);
+        font-size: 20px;
+        margin: 0
+        }
